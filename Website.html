@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protofolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" class="checkbox" id="check">
+        <h1 class="nav_head">John Fernandas</h1>
+
+        <ul>
+           <li><a href="#home">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="#service">Service</a></li>
+           <li><a href="#Protofolio">Protofolio</a></li>
+           <li><a href="#contact">contact</a></li>
+
+           <a href="#contact"><button class="contact_btn">Contact Me</button></a>
+       </ul> 
+
+            <label for="check" class="checkbtn">
+                   <i class="fas fa-bars"></i>  
+            </label>
+
+    </nav>  
+
+
+
+    <section id="home" class="home">
+        <img src="john.jpg" alt="" width="450px" height="400px">
+        <div class="description">
+            <h1>Hello I'm <br><span>John Fernandas</span></h1>
+            <h2>I'm a <span>Web developer...</span></h2>
+            <div class="font">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fas fa-phone"></i>
+            </div>
+            <button>Download CV</button>
+        </div>
+    </section>
+
+
+
+    <section id="about" class="about">
+        <div class="about_section">
+            <h1>About <span>Me</span></h1>
+            <h2>Web <span>Developer!</span></h2>
+            <p>Hello! I’m a passionate web developer with expertise in building dynamic, user-friendly websites and web applications. 
+                I specialize in both front-end and back-end development, with a focus on creating seamless and efficient digital experiences. 
+                <br>
+                I work with technologies like HTML, CSS, and JavaScript to design responsive and engaging websites that look great on any device.
+            </p>             <button class="about_btn"> Read More</button>       
+        </div>
+        <div class="about_photo">
+            <img src="john.jpg" alt="" width="420px" height="360px">
+        </div>
+    </section>
+
+    <section id="service">
+        <h1 class="service_section">My <span>Service</span></h1>
+        <div class="card">
+        <div class="service_card">
+            <i class="fas fa_comupter"></i>
+            <h2>Graphics Designer</h2>
+            <p>A graphic designer is a visual storyteller, blending creativity with technology to communicate ideas and messages effectively. Whether it's through logos, websites, advertisements, or print media, graphic designers use typography, color theory, layout, and images to create designs that captivate and engage audiences. They work closely with clients to understand their vision and translate that vision into compelling, aesthetically pleasing visuals. Graphic design is not just about making things look good; it's about creating designs that solve problems and evoke emotions. In an ever-evolving digital world, graphic designers must stay adaptable, continuously learning new tools and techniques to stay ahead of design trends and meet the demands of modern media.</p>
+             <a href="#"> Read More...</a>        
+        </div>
+    
+        <div class="service_card">
+            <i class="fas fa_comupter"></i>
+            <h2>Office Skills</h2>
+            <p>Microsoft Word, Excel, and PowerPoint are fundamental tools that play a key role in office productivity. Word is widely used for creating, editing, and formatting text documents, while Excel is indispensable for data analysis, creating spreadsheets, and performing complex calculations with its powerful formulas and functions. PowerPoint, on the other hand, is designed for crafting visually engaging presentations, combining text, images, and multimedia elements to effectively communicate ideas. Mastering these three applications significantly boosts efficiency and presentation quality in both business and academic environments.</p>
+             <a href="#"> Read More...</a>        
+        </div>
+        <div class="service_card">
+            <i class="fas fa_comupter"></i>
+            <h2>Frontend Developer</h2>
+            <p>A frontend developer is responsible for building the visible parts of a website or web application that users interact with directly. They take designs and turn them into functional, responsive, and interactive user interfaces using languages like HTML, CSS, and JavaScript. Frontend developers ensure that a site looks good and performs well across different devices and screen sizes, often collaborating closely with UI/UX designers to bring the visual elements to life. They work with frameworks and libraries like React, Angular, or Vue.js to streamline development and enhance user experience. Beyond aesthetics, frontend developers focus on optimizing performance, accessibility, and functionality, ensuring that users have a seamless, efficient experience when navigating a site or app. Their role is essential in bridging the gap between design and technical implementation, making sure that the user's journey is intuitive and enjoyable.</p>
+            <a href="#"> Read More...</a>        
+        </div>
+    </div>
+    </section>
+
+<section id="Protofolio">
+    <h1 class="port_section">My <span>Work</span></h1>
+    <div class="project">
+        <div class="port_card">
+            <img src="Frontend Developer" alt="" width="350px" height="350px">
+            <div class="content">
+                <h1>Web development</h1>
+                <p>Web development involves building and maintaining websites, focusing on both the front-end (user interface) and back-end (server-side functionality). It incorporates various technologies such as HTML, CSS, JavaScript.</p>
+            </div>
+        </div>
+        <div class="port_card">
+            <img src="Android Design.webp" alt="" width="350px" height="350px">
+            <div class="content">
+                <h1>Android Design</h1>
+                <p>Android design emphasizes simplicity and usability, focusing on clean, intuitive interfaces that prioritize user experience. Its guidelines, like Material Design.</p>
+            </div>
+        </div>
+        <div class="port_card">
+            <img src="graphic design.jpg" alt="" width="350px" height="350px">
+            <div class="content">
+                <h1>Graphic Design</h1>
+                <p>Graphic design is the art of visually communicating ideas through the use of typography, imagery, color, and layout. It plays a crucial role in creating brand identities, advertisements.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="form">
+        <h1>Contact <span>Me</span></h1>
+        <form action="#home">
+            <input type="text" name="nam" placeholder="Enter Your Name" required=""><br>
+            <input type="email" name="email" placeholder="Enter Your Email" required=""><br>
+            <input type="number" name="mno" placeholder="Enter Your Phone No." required=""><br>
+            <textarea name="msg" id="msg" rows="6" cols="20" placeholder="Enter Your Message"></textarea><br>
+            <button class="form_btn">Submit</button>
+        </form>
+    </div>
+</section>
+
+<div class="footer">
+    <p><i class="fa-solid fa-copyright"></i>John Fernandas || All Right Reserved...</p>
+</div>
+
+</body>
+</html>
